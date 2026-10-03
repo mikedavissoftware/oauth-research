@@ -131,6 +131,8 @@ After building the provider and login button into my app, I tested it before add
 
 After placing my Client ID in the provider, I got a successful login and was able to select the account I wanted to use for this session, see the list of information that would be shared to the client, and finally see the success both in the state-controlled indicator of success on my application.
 
+<img src="public/images/success-image.png" alt="Great Success!">
+
 Next up, I was curious to see the actual token that was returned from the successful authorization. I moved my `setSuccess()` logic into individual `handleSuccess` and `handleFailure` functions, to keep the JSX clean and allow for these functionalities to scale up as needed. This is what I put into `handleSuccess` to show the token in the console:
 
 ```JS
