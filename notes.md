@@ -12,13 +12,13 @@ I will begin with my initial idea of what OAuth is, so that I can compare & cont
 
 As indicated by the name, OAuth is a streamlined tool for authorizing access to data that is already accessible to another account. This process assumes the precondition of authentication of this other superaccount, which then allows the authorization of certain permissions to this subcontext in which OAuth is being used.
 
-From what I know of authentication and authorization, I assume that this is all accomplished through key generation, where the subcontext’s client sends a request for a set of permissions to access data, using the superaccount’s authentication to trigger the key generation. I would also assume that this creates a sort of session within the subcontext that can be terminated by the client or the superaccount at anytime, most likely by the removal of the generated key from the superaccount’s set of active keys.
+From what I know of authentication and authorization, I assume that this is all accomplished through key generation, where the subcontext’s client sends a request for a set of permissions to access data, using the superaccount’s authentication to trigger the key generation. I would also assume that this creates a sort of session within the subcontext that can be terminated by the client or the superaccount at any time, most likely by the removal of the generated key from the superaccount’s set of active keys.
 
 More broadly, I know that OAuth (specifically OAuth 2.0) is widely used by major tech companies like Google and Meta, to quickly authorize access to user data across a plethora of different applications. These applications include but are not limited to phone apps, web apps, and desktop apps.
 
 The use of OAuth allows for quick access to essential data like name, email address, or media files, so that the account creation or login process is extremely easy and users are not discouraged by the inconvenience of filling in account creation forms. It also eliminates the possibility of typos in that process, and also can circumvent the inconvenience of email confirmation. Both of these conveniences save the user time and boost the rate of signups for any app that chooses to use OAuth.
 
-Lastly, I’d like to quickly address the privacy issues around OAuth. In an age of user data being so valuable, OAuth directly gives providers a strong picture of which sites users visit and which apps they use. With the high level of distrust of tech companies, this is definitely something to consider when choosing to incorporation OAuth into any application. Though I think the actual information being shared by providers is secure, their ability to monitor which applications users are creating accounts on could be a growing cause for concern in certain users, moving forward.
+Lastly, I’d like to quickly address the privacy issues around OAuth. In an age of user data being so valuable, OAuth directly gives providers a strong picture of which sites users visit and which apps they use. With the high level of distrust of tech companies, this is definitely something to consider when choosing to incorporate OAuth into any application. Though I think the actual information being shared by providers is secure, their ability to monitor which applications users are creating accounts on could be a growing cause for concern in certain users, moving forward.
 
 <hr/>
 
@@ -160,4 +160,4 @@ I finished my testing session by:
 
 Though I now have many more questions about how OAuth works behind the scenes, I now have a working understanding of how to implement it in a front end application. I can also easily see how OAuth could be used directly by an application's back end, possibly attaching the OAuth credentials to a client device's user session.
 
-As someone who wants to use OAuth in my own future applications, I am glad that I now how this repository as a place to continue exploring the topic. Great exercise!
+As someone who wants to use OAuth in my own future applications, I am glad that I now have this repository as a place to continue exploring the topic. Great exercise!
