@@ -156,6 +156,8 @@ I finished my testing session by:
 - Updating my `handleSuccess` function
 - Rendering the user email in the application to show that the expected information was fetched and decoded correctly
 
+<img src="public/images/success-with-email.png" alt="Great-er Success!">
+
 <hr/>
 
 ## Final Thoughts
